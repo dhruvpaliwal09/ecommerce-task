@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com" ></script>
+</head>
+<body>
+    <!-- <header >
+        <nav class="flex bg-black pt-7 items-center justify-between ">
+            <div class="text-white text-xl font-extrabold pl-9 pb-7">
+                <h1>S h o e s</h1>
+            </div>
+            <ul class="text-white pb-7 text-center flex justify-around text-base">
+                <li class="list-none"><a href="" class="px-2">Home</a></li>
+                <li  class="list-none hidden sm:block"><a href="" class="px-2">About</a><li>
+                <li  class="list-none "><a href="" class="px-2">Contact</a></li>
+                <li  class="list-none hidden md:block"><a href="" class="px-2">Careers</a></li>
+
+            </ul>
+            <div class="flex">
+                <button class="text-white mr-10 mb-7"><a href="Login.html">Login</a></button>
+                <img src="Images/shopping-bag (2).png" class="mr-8 mb-7">
+            </div>
+        </nav>
+    </header> -->
+
+
+    <header>
+        <nav class="flex bg-black pt-7 items-center justify-between ">
+          <div class="text-white text-2xl font-extrabold pl-9 pb-7">
+            <h1>S h o e s</h1>
+          </div>
+          <ul class="text-white pb-7 text-center flex justify-around text-base">
+            <li class="list-none hidden sm:block"><a href="" class="px-2">Home</a></li>
+            <li class="list-none hidden sm:block"><a href="" class="px-2">About</a></li>
+            <!-- Hide "Contact" on very small screens -->
+            <li class="list-none hidden sm:block"><a href="" class="px-2">Contact</a></li>
+            <li class="list-none hidden md:block"><a href="" class="px-2">Careers</a></li>
+          </ul>
+          <div class="flex">
+            <button class="text-white mr-10 mb-7"><a href="Login.html">Login</a></button>
+            <img src="Images/shopping-bag (2).png" class="mr-8 mb-7">
+          </div>
+        </nav>
+      </header>
+      
+
+
+
+
+    <div class="bg-gray-800 m-7 rounded-xl p-3">
+        <ul class="flex text-center justify-around font-semibold">
+            <li class="text-white"><a href="">Men</a></li>
+            <li  class="text-white"><a href="">Women</a></li>
+            <li class="text-white"><a href="">Kids</a></li>
+            <li class="text-white"><a href="">Adults</a></li>
+        </ul>
+    </div>
+
+
+    <div class="bg-gray-800 m-7 rounded-xl p-3">
+        <ul class="flex text-center justify-around font-semibold">
+            <div class="max-w-md mx-auto bg-white p-2 rounded-lg shadow-lg">
+                <p class="text-black font-bold">Search about shoes!!</p>
+                <!-- <div class="flex items-center border border-gray-300 rounded-lg p-1 mx-10">
+                    <input id="search-bar" type="text" placeholder="Search..." class="w-full outline-none">
+                    <button class="bg-black text-white px-4 py-2 rounded-lg text-sm sm:px-8 sm:py-2 sm:text-base focus:outline-none" onclick="clicked()">
+                        Search
+                    </button>
+                    
+                </div> -->
+                <div class="flex items-center border border-gray-300 rounded-lg p-1 mx-1 ">
+                    <input id="search-bar" type="text" placeholder="Search..." class="flex-grow outline-none px-2 py-1 text-sm sm:text-base">
+                    <button class="bg-black text-white px-4 py-1 rounded-lg text-sm sm:text-base focus:outline-none" onclick="clicked()">
+                      Search
+                    </button>
+                  </div>
+                  
+        </ul>
+    </div>
+    <div id="searchcontainer" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 xl:grid-cols-6 gap-4 pt-8 pl-7 pr-7  ">
+
+    </div>
+    <div class="hh">
+<!-- banner starts -->
+<div class="p-10 relative">
+    <img src="/Images/men,women,kids  0.png">
+    <div  class="absolute top-20 left-20 text-white pt-6 font-extrabold text-xs xl:text-4xl lg:text-3xl md:text-2xl sm:text-xs ">
+        <p>Step into Style: Your Soles, Your Statements</p>
+        <div class="font-semibold pt-5"><button class="border border-white text-white hover:bg-gray-800 hover:text-white py-2 px-4 rounded-2xl hover:animate-bounce sm:mb-10"><a href="">Shop now</a></button></div>
+    </div>
+</div>
+<!-- banner ends -->
+<hr class="border-t border-gray-900 my-7 mx-10">
+<!-- top picks start -->
+<div class="pl-10 font-extrabold text-3xl ">
+    <p>Trending articles</p>
+</div>
+ 
+
+<div class="container mx-auto">
+    <div id="cardcontainer" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 xl:grid-cols-6 gap-4 pt-8 pl-7 pr-7  ">
+
+    </div>
+</div>
+
+<!-- top picks end -->
+<hr class="border-t border-gray-900 my-10 mx-10">
+<!-- customer review section start -->
+<div class="mx-8 mt-7">
+    <h2 class=" font-extrabold text-3xl mb-7">Customer Reviews</h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <!-- Review 1 -->
+        <div class="bg-white shadow-sm p-4">
+            <h3 class="text-xl font-semibold mb-2">Virat Kohli</h3>
+            <h4>★★★★☆</h4>
+            <p> I recently purchased a pair of sneakers from this website, and I couldn't be happier! The selection was fantastic.</p>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-white shadow-sm p-4">
+            <h3 class="text-xl font-semibold mb-2">Rohit Shamra</h3>
+            <h4>★★★★☆</h4>
+            <p>Comfy sandals for summer, speedy delivery. Impressed by quality and variety. Unique designs, high prices..</p>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-white shadow-smp-4">
+            <h3 class="text-xl font-semibold mb-2">Hardik Pandya</h3>
+            <h4>★★★★☆</h4>
+            <p>Unique boots, good quality, but pricey. On-time delivery. Sneaker variety is impressive, smooth checkout. Limited stock.</p>
+        </div>
+
+        <div class="bg-white shadow-sm p-4">
+            <h3 class="text-xl font-semibold mb-2">MS Dhoni</h3>
+            <h4>★★★★☆</h4>
+            <p>Fast delivery, stylish sneakers, and superb service. Sizing can be tricky. Unique boots, on-time delivery, but no free returns.</p>
+        </div>
+        <!-- Add more reviews as needed -->
+    </div>
+</div>
+<!-- customer review section endds -->
+
+</div>
+<footer class="bg-gray-800 text-white mt-10 p-4 px-10">
+    <div class="container mx-auto">
+        <div class="flex justify-between items-center">
+            <p class="text-2xl font-bold pb-4">The Shoes Company</p>
+            <ul class="flex space-x-4">
+                <img width="24" height="24" src="https://img.icons8.com/ios/24/instagram-new--v1.png" alt="instagram-new--v1"/>
+
+                <img width="24" height="24" src="https://img.icons8.com/ios/50/twitter--v1.png" alt="twitter--v1"/>
+    
+                <img width="24" height="24" src="https://img.icons8.com/glyph-neue/24/youtube-play.png" alt="youtube-play" class="hidden sm:block"/>
+
+                <img width="24" height="24" src="https://img.icons8.com/ios-glyphs/24/share--v1.png" alt="share--v1" class="hidden sm:block"/>
+            </ul>
+        </div>
+        <div>
+            <ul class="flex justify-between items-center">
+                <li class="hidden sm:block">Terms and Conditions</li>
+                <li>Contact us</li>
+                <li class="hidden sm:block">Shipping and return policy</li>
+                <li >Privacy policy</li>
+            </ul>
+        </div>
+        <div class="pt-4 flex flex-col items-center justify-center">
+            <p>
+                Stay connected with us!!
+            </p>
+        </div>
+    </div>
+</footer>
+<script src="script.js" ></script>
+</body>
+
+</html>

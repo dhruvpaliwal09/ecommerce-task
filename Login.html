@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="mt-10 mx-2 sm:mx-12 pt-5 sm:pt-10 px-2 sm:px-10">
+  <div class="bg-gray-600 shadow-md rounded px-4 sm:px-8 pt-5 sm:pt-7 pb-5 sm:pb-7 flex flex-col">
+    <p class="text-2xl sm:text-3xl font-bold text-center text-white">Login Please!!</p>
+    <div class="mb-2 sm:mb-4">
+      <label class="block text-white text-sm sm:text-base font-bold mb-2" for="username">
+        Username
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3" id="username" type="text" placeholder="Username">
+    </div>
+    <div class="mb-2 sm:mb-6">
+      <label class="block text-white text-sm sm:text-base font-bold mb-2" for="password">
+        Password
+      </label>
+      <input class="shadow appearance-none rounded w-full py-2 px-3 mb-2 sm:mb-3" id="password" type="password" placeholder="enter your password ******">
+    </div>
+    <div class="flex flex-col sm:flex-row items-center justify-between">
+      <button class="bg-black hover:bg-blue-dark text-white font-bold py-2 px-4 sm:px-10 rounded mb-2 sm:mb-0" type="button">
+        Sign In
+      </button>
+      <ul class="text-white mb-2 sm:mb-0"><li><a href="https://www.google.com">Don't have an account? Click here!</a></li></ul>
+      <a class="inline-block align-baseline font-bold text-sm text-white hover:text-blue-darker" href="#">
+        Forgot Password?
+      </a>
+    </div>
+  </div>
+</div>
+
+</body>
+<footer class="bg-gray-800 text-white px-10 py-4 fixed bottom-0 w-full">
+  <div class="container mx-auto">
+    <div class="flex justify-between items-center">
+        <p class="text-2xl font-bold pb-4">The Shoes Company</p>
+        <ul class="flex space-x-4">
+            <img width="24" height="24" src="https://img.icons8.com/ios/24/instagram-new--v1.png" alt="instagram-new--v1"/>
+
+            <img width="24" height="24" src="https://img.icons8.com/ios/50/twitter--v1.png" alt="twitter--v1"/>
+
+            <img width="24" height="24" src="https://img.icons8.com/glyph-neue/24/youtube-play.png" alt="youtube-play" class="hidden sm:block"/>
+
+            <img width="24" height="24" src="https://img.icons8.com/ios-glyphs/24/share--v1.png" alt="share--v1" class="hidden sm:block"/>
+        </ul>
+    </div>
+    <div>
+        <ul class="flex justify-between items-center">
+            <li class="hidden sm:block">Terms and Conditions</li>
+            <li>Contact us</li>
+            <li class="hidden sm:block">Shipping and return policy</li>
+            <li >Privacy policy</li>
+        </ul>
+    </div>
+    <div class="pt-4 flex flex-col items-center justify-center">
+        <p>
+            Stay connected with us!!
+        </p>
+    </div>
+</div>
+</footer>
+</html>
